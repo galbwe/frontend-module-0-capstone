@@ -1,0 +1,21 @@
+#!/bin/bash
+mkdir _secret_library
+cd _secret_library
+touch README.md
+touch Gemfile
+touch Rakefile
+mkdir _lib
+cd _lib
+touch secret_library.rb
+touch secret_book.rb
+touch secret_librarian.rb
+touch patron.rb
+touch library_system.rb
+cd ..
+mkdir _test
+cd _test
+touch secret_library_test.rb
+touch secret_book_test.rb
+touch secret_librarian_test.rb
+touch patron_test.rb
+touch library_system_test.rb
