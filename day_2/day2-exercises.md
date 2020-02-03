@@ -1,0 +1,11 @@
+# Frontend Mod 0 Capstone - Day 2 Exercises
+
+## Exercises
+
+1. There are three types of lists in HTML: ordered lists, unordered lists and definition lists. They each have unique use cases.
+    1. *Ordered lists* are used to describe information that only makes sense when displayed in a specific order. Examples might include recipes or driving directions. The `<ol></ol>` tags are used to denote an ordered list, and the individual items are displayed with the `<li></li>` tags.
+    2. *Unordered lists* are used to describe information that does not necessarily need to be displayed in a specific order to make sense. Examples include a list of ingredients, or cities in a country. The `<ul></ul>` tags are used to show an unordered list, and the individual items in the list should be surrounded by `<li></li>` tags.
+    3. *Definition lists* are used when stating the meaning of terms used in a body of work. An example is a glossary. Definition lists are surrounded by `<dl></dl>` tags. Each new term in the list is marked with `<dt></dt>` tags, and each term's definition is marked with `<dd></dd>` tags.
+2. To link to another website, you use the *anchor* element. The tags used to display an anchor are `<a></a>`. To specify the url of the page to link to, the `href` attribute is used. For example, the HTML to link to twitter might look like this: `<a href="https://www.twitter.com">an addicting website</a>`.
+3. To open a linked page in a new window, the `target` attribute should be given a value of `"_blank"`. For example, the html for a link to Reddit that opens in a new window would look like: `<a href="https://www.reddit.com" target="_blank">another addicting site</a>`.
+4. To link to a specific part of the current page, you first need to make sure that the tag you want to link to has an `id` attribute. In the `href` attribute of the anchor elemement, you need to use that element's `id`, prepended by an `#` sign (I think that's called an octothorpe. What a cool name!). For example, to link to the introduction section of a page, there would need to be a tag like `<h2 id="introduction">The Introduction</h2>`, and then the link to go to that header would be `<a href="#introduction">Go to the Introduction</a>`. 
