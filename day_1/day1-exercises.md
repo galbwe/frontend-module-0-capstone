@@ -22,4 +22,4 @@
     4. The ```<footer></footer>``` element contains content at the end of a page. It typically has information about the author, copyright information, and links to related pages.
 
 ## Link to CodePen:
-[]()
+https://codepen.io/galbwe/pen/MWYMpye?editors=1100
